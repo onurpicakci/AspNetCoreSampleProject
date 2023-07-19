@@ -1,0 +1,17 @@
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.deps.json
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.runtimeconfig.json
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.dll
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/DataAccessLayer.pdb
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.AssemblyReference.cache
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfoInputs.cache
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfo.cs
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CopyComplete
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.dll
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/refint/DataAccessLayer.dll
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.pdb
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.genruntimeconfig.cache
+/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/ref/DataAccessLayer.dll

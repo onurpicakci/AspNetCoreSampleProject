@@ -1,0 +1,681 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/projectbundle/AspNetCore_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets/AspNetCore_Project.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/LICENSE-free.txt",
+      "PackagePath": "staticwebassets/Template/LICENSE-free.txt"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/README.txt",
+      "PackagePath": "staticwebassets/Template/README.txt"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/aos.css",
+      "PackagePath": "staticwebassets/Template/css/aos.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap-icons/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap-icons/bootstrap-icons.json",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/bootstrap-icons.json"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap-icons/index.html",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/index.html"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/LICENSE.txt",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/all.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/all.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/all.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/brands.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/regular.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/solid.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/css/main.css",
+      "PackagePath": "staticwebassets/Template/css/main.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/favicon.ico",
+      "PackagePath": "staticwebassets/Template/favicon.ico"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/avatar.jpg",
+      "PackagePath": "staticwebassets/Template/images/avatar.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client1.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client1.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client2.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client2.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client3.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client3.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client4.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client4.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client5.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client5.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client6.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client6.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/clients/client7.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client7.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/building_websites.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/building_websites.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/creative-team.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/creative-team.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/development.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/development.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/hello.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/hello2.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello2.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/hello3.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello3.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/hello4.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello4.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/website-app.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/website-app.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/work-chat.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/work-chat.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/illustrations/work-together.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/work-together.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/marker.svg",
+      "PackagePath": "staticwebassets/Template/images/marker.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/1-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/1-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/1.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/1.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/2-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/2-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/2.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/2.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/3-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/3-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/3.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/3.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/4-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/4-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/4.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/4.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/5-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/5-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/5.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/5.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/6-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/6-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/6.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/6.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/7-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/7-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/7.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/7.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/8-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/8-small.png"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/portfolio/8.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/8.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/services/app-development.svg",
+      "PackagePath": "staticwebassets/Template/images/services/app-development.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/services/full-stack.svg",
+      "PackagePath": "staticwebassets/Template/images/services/full-stack.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/services/graphic-design.svg",
+      "PackagePath": "staticwebassets/Template/images/services/graphic-design.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/services/ui-ux.svg",
+      "PackagePath": "staticwebassets/Template/images/services/ui-ux.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/services/web-design.svg",
+      "PackagePath": "staticwebassets/Template/images/services/web-design.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-1.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-1.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-2.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-2.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-3.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-3.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-4.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-4.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-5.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-5.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/team/emp-6.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-6.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/testimonials/client1.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client1.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/testimonials/client2.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client2.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/testimonials/client3.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client3.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/testimonials/client4.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client4.jpg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/wave-bg.svg",
+      "PackagePath": "staticwebassets/Template/images/wave-bg.svg"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/index.html",
+      "PackagePath": "staticwebassets/Template/index.html"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/BigPicture.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/BigPicture.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/aos.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/aos.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/Template/scripts/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/main.js",
+      "PackagePath": "staticwebassets/Template/scripts/main.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/masonry.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/Template/scripts/purecounter.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/purecounter.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/AspNetCore_Project/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.AspNetCore_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.AspNetCore_Project.props",
+      "PackagePath": "build\\AspNetCore_Project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AspNetCore_Project.props",
+      "PackagePath": "buildMultiTargeting\\AspNetCore_Project.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AspNetCore_Project.props",
+      "PackagePath": "buildTransitive\\AspNetCore_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
