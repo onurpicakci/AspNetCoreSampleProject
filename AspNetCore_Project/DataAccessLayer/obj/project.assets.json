@@ -3488,11 +3488,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
+      "projectUniqueName": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
+      "projectPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
       "packagesPath": "/Users/onurpicakci/.nuget/packages/",
-      "outputPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/obj/",
+      "outputPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurpicakci/.nuget/NuGet/NuGet.Config"
@@ -3507,8 +3507,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/EntityLayer.csproj": {
-              "projectPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/EntityLayer.csproj"
+            "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/EntityLayer.csproj": {
+              "projectPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/EntityLayer.csproj"
             }
           }
         }

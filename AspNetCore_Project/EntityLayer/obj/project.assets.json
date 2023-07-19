@@ -3468,11 +3468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
+      "projectUniqueName": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
       "projectName": "EntityLayer",
-      "projectPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
+      "projectPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
       "packagesPath": "/Users/onurpicakci/.nuget/packages/",
-      "outputPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/obj/",
+      "outputPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurpicakci/.nuget/NuGet/NuGet.Config"

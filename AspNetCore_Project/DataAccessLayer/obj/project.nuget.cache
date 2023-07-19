@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYAf9uMSrdUE0sI4C5jMAMeCxdzNc+Z8m7W3gbAWsJfPB0vdxl523pth9Y1uWUZb+V3QPcI/UQME572b7wbJrA==",
+  "dgSpecHash": "wxsyCX93ZqWYhHfZCblOqT8xrUke6QYPFDA3yD/7ljf1x0ih5Swd7mGDy+dt1Cmq38HdWyiU0x/z0q9vG0/4Aw==",
   "success": true,
-  "projectFilePath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
+  "projectFilePath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "/Users/onurpicakci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

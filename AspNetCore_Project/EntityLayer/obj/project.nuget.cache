@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqZfyZTn2I6mHYNiO7Z71Pir/3GFKWVzIG/1M61fSvKvia8vd2J2D9mKwyCTB72VN7Aq6+l39LGGHH5DmOeCPQ==",
+  "dgSpecHash": "gpy7vwAlZPMqBPDbAE9MfuMkkXoorPP2Fxjfaypm4YQUPP2RGcShz0FsnPEIktDa6x8rVaP/i/rGUFqXw3/vvg==",
   "success": true,
-  "projectFilePath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
+  "projectFilePath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/EntityLayer.csproj",
   "expectedPackageFiles": [
     "/Users/onurpicakci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

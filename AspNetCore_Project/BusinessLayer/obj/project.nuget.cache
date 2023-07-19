@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfs63NEw5j6KVI/7lTt0nkji9FU4Njo22T4unKKMxR2DI670rMshHLucPJ9EHsBs7el0LFIjTUE33e573AP2Gg==",
+  "dgSpecHash": "FVDP3/8U6z2WOmnj7SDsoDgfnTBbGrln1Kb9umqHDXuUOr1SqNz+VjcoxcGvVecfDwQjATFDOrGMwJiuTMHtRg==",
   "success": true,
-  "projectFilePath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
+  "projectFilePath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
   "expectedPackageFiles": [
     "/Users/onurpicakci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

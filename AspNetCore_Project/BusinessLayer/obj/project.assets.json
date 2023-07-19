@@ -3508,11 +3508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
+      "projectUniqueName": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
+      "projectPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/BusinessLayer/BusinessLayer.csproj",
       "packagesPath": "/Users/onurpicakci/.nuget/packages/",
-      "outputPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/BusinessLayer/obj/",
+      "outputPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/BusinessLayer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/onurpicakci/.nuget/NuGet/NuGet.Config"
@@ -3527,8 +3527,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj": {
-              "projectPath": "/Users/onurpicakci/RiderProjects/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj"
+            "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/DataAccessLayer/DataAccessLayer.csproj"
             }
           }
         }
