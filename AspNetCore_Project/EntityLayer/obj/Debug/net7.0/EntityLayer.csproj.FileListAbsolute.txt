@@ -12,3 +12,17 @@
 /Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
 /Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
 /Users/onurpicakci/RiderProjects/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/bin/Debug/net7.0/EntityLayer.deps.json
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/bin/Debug/net7.0/EntityLayer.runtimeconfig.json
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/bin/Debug/net7.0/EntityLayer.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/bin/Debug/net7.0/EntityLayer.pdb
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.AssemblyReference.cache
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.AssemblyInfo.cs
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/refint/EntityLayer.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.pdb
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/EntityLayer.genruntimeconfig.cache
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/EntityLayer/obj/Debug/net7.0/ref/EntityLayer.dll
