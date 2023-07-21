@@ -1,0 +1,24 @@
+@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Ratio</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>SQL</td>
+        <td>95</td>
+        <td><a href="#" class="btn btn-danger">Delete</a></td>
+        <td><a href="#" class="btn btn-warning">Update</a></td>
+    </tr>
+</table>
