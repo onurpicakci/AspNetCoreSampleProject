@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbE5hdkJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialScripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbFNjcmlwdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialSideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbFNpZGVCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Skill/AddSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvQWRkU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Skill/Index.cshtml]

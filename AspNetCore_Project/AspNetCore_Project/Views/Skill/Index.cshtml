@@ -1,24 +1,55 @@
-@model dynamic
-
+@using EntityLayer.Concrete
+@model List<Skill>
 @{
     ViewBag.Title = "title";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
-
-<h2>Index</h2>
-<table class="table table-bordered">
-    <tr>
-        <th>#</th>
-        <th>Title</th>
-        <th>Ratio</th>
-        <th>Delete</th>
-        <th>Update</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>SQL</td>
-        <td>95</td>
-        <td><a href="#" class="btn btn-danger">Delete</a></td>
-        <td><a href="#" class="btn btn-warning">Update</a></td>
-    </tr>
-</table>
+<div class="card-header border-0">
+    <h3 class="mb-4">Skill Lists
+        <a href="#" class="btn btn-success float-right">Add New Skill</a>
+    </h3>
+</div>
+<!-- Light table -->
+<div class="table-responsive">
+    <table class="table align-items-center table-flush">
+        <thead class="thead-light">
+        <tr>
+            <th scope="col" class="sort" data-sort="name">#</th>
+            <th scope="col" class="sort" data-sort="budget">Title</th>
+            <th scope="col" class="sort" data-sort="status">Ratio</th>
+            <th scope="col">Delete</th>
+            <th scope="col" class="sort" data-sort="completion">Update</th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody class="list">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @item.SkillId
+                </th>
+                <td class="budget">
+                    @item.Title
+                </td>
+                <td>
+                    <div class="d-flex align-items-center">
+                        <span class="completion mr-2">@item.Value %</span>
+                        <div>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="@item.Value" aria-valuemin="0" aria-valuemax="100" style="width: @item.Value%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </td>
+                <td>
+                    <a href="#" class="btn btn-primary">Update</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
