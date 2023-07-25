@@ -72,6 +72,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmVhdHVyZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Portfolio/AddPortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0FkZFBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Portfolio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9ydGZvbGlvL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Shared/Components/AboutList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWJvdXRMaXN0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
