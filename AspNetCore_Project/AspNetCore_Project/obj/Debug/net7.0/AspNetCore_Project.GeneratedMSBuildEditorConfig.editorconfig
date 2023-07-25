@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/NavigationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTmF2aWdhdGlvblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Admin/PartialFooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Default/SendMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9TZW5kTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Experience/AddExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9BZGRFeHBlcmllbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Experience/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Experience/UpdateExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZXJpZW5jZS9VcGRhdGVFeHBlcmllbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Feature/Index.cshtml]
@@ -110,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Skill/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Skill/UpdateSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvVXBkYXRlU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/_ViewImports.cshtml]

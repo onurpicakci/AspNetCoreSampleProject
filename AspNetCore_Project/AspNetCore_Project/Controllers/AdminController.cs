@@ -28,4 +28,9 @@ public class AdminController : Controller
     {
         return PartialView();
     }
+    
+    public PartialViewResult NavigationPartial()
+    {
+        return PartialView();
+    }
 }

@@ -1,0 +1,24 @@
+@model EntityLayer.Concrete.Experience
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+    <h3 class="mb-4">Experience Update Page</h3>
+</div>
+
+@using(Html.BeginForm("UpdateExperience","Experience",FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.ExperienceId)
+    <label>Experience Title</label>
+    @Html.TextBoxFor(x=>x.Name, new {@class="form-control mt-2"})
+    <label class="mt-3">Date</label>
+    @Html.TextBoxFor(x=>x.Date, new {@class="form-control mt-2"})
+    <label class="mt-3">Image URL</label>
+    @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form-control mt-2"})
+    <label class="mt-3">Date</label>
+    @Html.TextAreaFor(x=>x.Description, 10, 3, new {@class="form-control mt-2"})
+    <button class="btn btn-outline-success mt-3">Update</button>
+}
