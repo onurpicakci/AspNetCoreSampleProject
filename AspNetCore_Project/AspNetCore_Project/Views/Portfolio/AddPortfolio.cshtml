@@ -2,38 +2,48 @@
 
 @{
     ViewBag.Title = "title";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
 
-
-<div class="card-header border-0">
-    <h3 class="mb-4">Portfolio Add Page</h3>
-</div>
-
-
-@using(Html.BeginForm("AddPortfolio","Portfolio",FormMethod.Post))
+@using (Html.BeginForm("AddPortfolio", "Portfolio", FormMethod.Post))
 {
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <form class="forms-sample">
+                    <label>Portfolio Title</label>
+                    @Html.TextBoxFor(x => x.Name, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
+                    <label class="mt-3">ImageURL1</label>
+                    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.ImageUrl, "", new { @class = "text-danger" })
+                    <label class="mt-3">ImageURL2</label>
+                    @Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.ImageUrl2, "", new { @class = "text-danger" })
+                    <label class="mt-3">Image1</label>
+                    @Html.TextBoxFor(x => x.Image1, new { @class = "form-control mt-2" })
+                    <label class="mt-3">Image2</label>
+                    @Html.TextBoxFor(x => x.Image2, new { @class = "form-control mt-2" })
+                    <label class="mt-3">Image3</label>
+                    @Html.TextBoxFor(x => x.Image3, new { @class = "form-control mt-2" })
+                    <label class="mt-3">Image4</label>
+                    @Html.TextBoxFor(x => x.Image4, new { @class = "form-control mt-2" })
+                    <label class="mt-3">Project URL</label>
+                    @Html.TextBoxFor(x => x.ProjectUrl, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.ProjectUrl, "", new { @class = "text-danger" })
+                    <label class="mt-3">Price</label>
+                    @Html.TextBoxFor(x => x.Price, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.Price, "", new { @class = "text-danger" })
+                    <label class="mt-3">Completion Rate</label>
+                    @Html.TextBoxFor(x => x.Value, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.Value, "", new { @class = "text-danger" })
+                    <label class="mt-3">Platform</label>
+                    @Html.TextBoxFor(x => x.Platform, new { @class = "form-control mt-2" })
+                    @Html.ValidationMessageFor(x => x.Platform, "", new { @class = "text-danger" })
+                    <button class="btn btn-info mt-3">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <br/>
-    <label>Portfolio Title</label>
-    @Html.TextBoxFor(x=>x.Name, new {@class="form-control mt-2"})
-    @Html.ValidationMessageFor(x => x.Name, "", new { @class = "text-danger" })
-    <label class="mt-3">Image1</label>
-    @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form-control mt-2"})
-    @Html.ValidationMessageFor(x => x.ImageUrl, "", new { @class = "text-danger" })
-    <label class="mt-3">Image2</label>
-    @Html.TextBoxFor(x=>x.ImageUrl2, new {@class="form-control mt-2"})
-    @Html.ValidationMessageFor(x => x.ImageUrl2, "", new { @class = "text-danger" })
-    <label class="mt-3">Project URL</label>
-    @Html.TextBoxFor(x=>x.ProjectUrl, new {@class="form-control mt-2"})
-    @Html.ValidationMessageFor(x => x.ProjectUrl, "", new { @class = "text-danger" })
-    <label class="mt-3">Price</label>
-    @Html.TextBoxFor(x =>x.Price, new { @class = "form-control mt-2" })
-    @Html.ValidationMessageFor(x => x.Price, "", new { @class = "text-danger" })
-    <label class="mt-3">Completion Rate</label>
-    @Html.TextBoxFor(x =>x.Value, new { @class = "form-control mt-2" })
-    @Html.ValidationMessageFor(x => x.Value, "", new { @class = "text-danger" })
-    <label class="mt-3">Platform</label>
-    @Html.TextBoxFor(x =>x.Platform, new { @class = "form-control mt-2" })
-    @Html.ValidationMessageFor(x => x.Platform, "", new { @class = "text-danger" })
-    <button class="btn btn-info mt-3">Save</button>
 }

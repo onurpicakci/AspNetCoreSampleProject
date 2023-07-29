@@ -148,6 +148,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Shared/_NewAdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OZXdBZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,6 +166,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Skill/UpdateSkill.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2tpbGwvVXBkYXRlU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/Views/_ViewImports.cshtml]

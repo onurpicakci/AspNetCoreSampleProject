@@ -1,19 +1,22 @@
-@model dynamic
+@model EntityLayer.Concrete.Skill
 
 @{
     ViewBag.Title = "title";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
 
-<div class="card-header border-0">
-    <h3 class="mb-4">Skill Add Page</h3>
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">New Skill</h4>
+            <form class="form-sample" method="post">
+                <br/><br/><br/>
+                <label>Skill Title</label>
+                <input type="text" name="Title" class="form-control mt-2"/>
+                <label class="mt-3">Ratio</label>
+                <input type="text" name="Value" class="form-control mt-2"/>
+                <button class="btn btn-primary mt-3">Save</button>
+            </form>
+        </div>
+    </div>
 </div>
-
-<form class="form-group" method="post">
-    <br/><br/><br/>
-    <label>Skill Title</label>
-    <input type="text" name="Title" class="form-control mt-2"/>
-    <label class="mt-3">Ratio</label>
-    <input type="text" name="Value" class="form-control mt-2"/>
-    <button class="btn btn-primary mt-3">Save</button>
-</form>
