@@ -1,0 +1,20 @@
+@model EntityLayer.Concrete.Service
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="card-header border-0">
+    <h3 class="mb-4">Service Add Page</h3>
+</div>
+
+@using(Html.BeginForm("AddService","Service",FormMethod.Post))
+{
+    <label>Service Title</label>
+    @Html.TextBoxFor(x=>x.Title, new {@class="form-control mt-2"})
+    <label class="mt-3">Image Url</label>
+    @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form-control mt-2"})
+    <button class="btn btn-info mt-3">Save</button>
+}

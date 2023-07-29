@@ -1,8 +1,23 @@
-@model dynamic
+@model EntityLayer.Concrete.Feature
 
 @{
     ViewBag.Title = "title";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h2>This is the Content area</h2>
+<div class="card-header border-0">
+    <h3 class="mb-4">Highlights Edit Page</h3>
+</div>
+
+@using(Html.BeginForm("Index","Feature",FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.FeatureId)
+    <br/><br/><br/>
+    <label>Title</label>
+    @Html.TextBoxFor(x=>x.Header, new {@class="form-control mt-2"})
+    <label class="mt-3">Name Surname</label>
+    @Html.TextBoxFor(x=>x.Name, new {@class="form-control mt-2"})
+    <label class="mt-3">Mission</label>
+    @Html.TextBoxFor(x=>x.Title, new {@class="form-control mt-2"})
+    <button class="btn btn-success mt-3">Update</button>
+}

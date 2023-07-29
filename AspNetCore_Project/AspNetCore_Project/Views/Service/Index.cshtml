@@ -1,0 +1,45 @@
+@using EntityLayer.Concrete
+@model List<Service>
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+            <a href="/Service/AddService" class="btn btn-success float-right">Add New Service</a>
+    <h3 class="mb-4">Service List</h3>
+</div>
+<!-- Light table -->
+<div class="table-responsive">
+    <table class="table align-items-center table-flush">
+        <thead class="thead-light">
+        <tr>
+            <th scope="col" class="sort" data-sort="name">#</th>
+            <th scope="col" class="sort" data-sort="budget">Title</th>
+            <th scope="col">Delete</th>
+            <th scope="col" class="sort" data-sort="completion">Update</th>
+            <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody class="list">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>
+                    @item.ServiceId
+                </th>
+                <td class="budget">
+                    @item.Title
+                </td>
+                <td>
+                    <a href="/Service/DeleteService/@item.ServiceId" class="btn btn-outline-danger">Delete</a>
+                </td>
+                <td>
+                    <a href="/Service/UpdateService/@item.ServiceId" class="btn btn-outline-primary">Update</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+

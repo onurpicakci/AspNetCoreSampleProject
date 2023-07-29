@@ -5,14 +5,13 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-
 <div class="card-header border-0">
-    <h3 class="mb-4">Portfolio Add Page</h3>
+    <h3 class="mb-4">Portfolio Edit Page</h3>
 </div>
 
-
-@using(Html.BeginForm("AddPortfolio","Portfolio",FormMethod.Post))
+@using(Html.BeginForm("UpdatePortfolio","Portfolio",FormMethod.Post))
 {
+    @Html.HiddenFor(x => x.PortfolioId)
     <br/>
     <label>Portfolio Title</label>
     @Html.TextBoxFor(x=>x.Name, new {@class="form-control mt-2"})

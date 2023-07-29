@@ -154,3 +154,7 @@
 /Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/EntityLayer.pdb
 /Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/projectbundle/AspNetCore_Project.bundle.scp.css
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/FluentValidation.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/FluentValidation.AspNetCore.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.MvcApplicationPartsAssemblyInfo.cs

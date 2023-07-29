@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZWYJ/3vN+09cSBmR3L82wrtjYWeYKSTRShJU2xbbmH3Gxsz6g76+7r10j8r0GUP7DXf6VyJDOarkkguarOVqYw==",
+  "dgSpecHash": "CewBqLwAdwWxXvkz4P+KuVd5Z92PB8/7VCoht6Zs6etyifzpfXIjeThAGX90pyAHpCOq6BAHjRXUt6Dn96vy1w==",
   "success": true,
   "projectFilePath": "/Users/onurpicakci/Desktop/AspNetCoreSampleProject/AspNetCore_Project/AspNetCore_Project/AspNetCore_Project.csproj",
   "expectedPackageFiles": [
     "/Users/onurpicakci/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/onurpicakci/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/onurpicakci/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/onurpicakci/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/onurpicakci/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
