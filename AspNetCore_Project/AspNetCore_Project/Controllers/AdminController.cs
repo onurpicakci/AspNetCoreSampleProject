@@ -33,4 +33,9 @@ public class AdminController : Controller
     {
         return PartialView();
     }
+    
+    public PartialViewResult NewSidebar()
+    {
+        return PartialView();
+    }
 }

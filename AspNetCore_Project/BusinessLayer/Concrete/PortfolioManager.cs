@@ -32,6 +32,11 @@ namespace BusinessLayer.Concrete
         {
             return _portfolioDal.GetList();
         }
+        
+        public List<Portfolio> GetLastFiveProjects()
+        {
+            return _portfolioDal.GetList().Take(5).ToList();
+        }
 
         public Portfolio GetById(int id)
         {
