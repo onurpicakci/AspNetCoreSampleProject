@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.Repository;
