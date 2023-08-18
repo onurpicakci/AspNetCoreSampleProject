@@ -36,3 +36,10 @@ AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/DataAccessLayer.pdb
 AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/BusinessLayer.dll
 *.dll
 *.pdb
+*.dll
+*.pdb
+*.json
+*.pdb
+*.dll
+*.cache
+*.info
