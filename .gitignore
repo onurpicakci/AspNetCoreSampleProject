@@ -43,3 +43,55 @@ AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/BusinessLayer.dll
 *.dll
 *.cache
 *.info
+.DS_Store
+AspNetCore_Project/.DS_Store
+AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/AspNetCore_Project
+AspNetCore_Project/AspNetCore_Project/obj/AspNetCore_Project.csproj.nuget.g.props
+AspNetCore_Project/AspNetCore_Project/obj/AspNetCore_Project.csproj.nuget.g.targets
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/apphost
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.AssemblyInfo.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.csproj.CopyComplete
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.csproj.FileListAbsolute.txt
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.GlobalUsings.g.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.MvcApplicationPartsAssemblyInfo.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.RazorAssemblyInfo.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/bundle/AspNetCore_Project.styles.css
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/projectbundle/AspNetCore_Project.bundle.scp.css
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/staticwebassets/msbuild.build.AspNetCore_Project.props
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AspNetCore_Project.props
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AspNetCore_Project.props
+AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.AssemblyReference.cache
+AspNetCore_Project/DataAccessLayer/.DS_Store
+AspNetCore_Project/DataAccessLayer/bin/.DS_Store
+AspNetCore_Project/DataAccessLayer/bin/Debug/.DS_Store
+AspNetCore_Project/DataAccessLayer/obj/DataAccessLayer.csproj.nuget.g.props
+AspNetCore_Project/DataAccessLayer/obj/DataAccessLayer.csproj.nuget.g.targets
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.AssemblyInfo.cs
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.CopyComplete
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.csproj.FileListAbsolute.txt
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+AspNetCore_Project/DataAccessLayer/obj/Debug/net7.0/DataAccessLayer.GlobalUsings.g.cs
+AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.AssemblyReference.cache
+AspNetCore_Project/AspNetCore_Project/bin/Debug/net7.0/AspNetCore_Project 3
+AspNetCore_Project/AspNetCore_Project/obj/AspNetCore_Project.csproj.nuget.g 2.props
+AspNetCore_Project/AspNetCore_Project/obj/AspNetCore_Project.csproj.nuget.g 2.targets
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes 2.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/apphost 2
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.AssemblyInfo 2.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.csproj 2.CopyComplete
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.csproj.FileListAbsolute 2.txt
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.GeneratedMSBuildEditorConfig 2.editorconfig
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.GlobalUsings.g 2.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.MvcApplicationPartsAssemblyInfo 2.cs
+AspNetCore_Project/AspNetCore_Project/obj/Debug/net7.0/AspNetCore_Project.RazorAssemblyInfo 2.cs
+AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.AssemblyReference.cache
+AspNetCore_Project/BusinessLayer/obj/rider.project.restore.info
+AspNetCore_Project/EntityLayer/.DS_Store
+AspNetCore_Project/EntityLayer/obj/rider.project.restore.info
+AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.AssemblyReference.cache
+AspNetCore_Project/BusinessLayer/obj/rider.project.restore.info
+AspNetCore_Project/EntityLayer/.DS_Store
+AspNetCore_Project/EntityLayer/obj/rider.project.restore.info
