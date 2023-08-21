@@ -1,10 +1,11 @@
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete;
 
-public class Context : IdentityDbContext
+public class Context : IdentityDbContext<WriterUser, WriterRole, int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -35,4 +36,6 @@ public class Context : IdentityDbContext
     public DbSet<UserMessage> UserMessages { get; set; }
     
     public DbSet<ToDoList> ToDoLists { get; set; }
+    
+    public DbSet<Announcement> Announcements { get; set; }
 }

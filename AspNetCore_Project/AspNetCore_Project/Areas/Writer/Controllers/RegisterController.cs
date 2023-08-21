@@ -1,3 +1,6 @@
+using AspNetCore_Project.Areas.Writer.Models;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCore_Project.Areas.Writer.Controllers;
@@ -5,15 +8,50 @@ namespace AspNetCore_Project.Areas.Writer.Controllers;
 [Area("Writer")]
 public class RegisterController : Controller
 {
-    [HttpGet]
-    public IActionResult Index()
+    private readonly UserManager<WriterUser> _userManager;
+
+    public RegisterController(UserManager<WriterUser> userManager)
     {
-        return View();
+        _userManager = userManager;
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Index()
+    {
+        return View(new UserRegisterViewModel());
     }
 
     [HttpPost]
-    public IActionResult Index(string name, string surname, string email, string password, string passwordConfirm)
+    public async Task<IActionResult> Index(UserRegisterViewModel model)
     {
-        return View();
+        if (ModelState.IsValid)
+        {
+            WriterUser user = new()
+            {
+                Name = model.Name,
+                Surname = model.Surname,
+                UserName = model.UserName,
+                Email = model.Email,
+                ImageUrl = model.ImageUrl
+            };
+            if (model.Password == model.PasswordConfirm)
+            {
+                var result = await _userManager.CreateAsync(user, model.Password);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Default");
+                }
+                else
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError("", item.Description);
+                    }
+                }
+            }
+        }
+
+        return View(model);
     }
 }
