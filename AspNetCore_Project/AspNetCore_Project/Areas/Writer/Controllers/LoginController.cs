@@ -30,7 +30,7 @@ public class LoginController : Controller
             var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, true, true);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Home");
+                return Redirect("/Writer/Home/Index");
             }
             else
             {
