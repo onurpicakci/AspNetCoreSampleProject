@@ -11,9 +11,6 @@ public class ServiceController : Controller
     
     public IActionResult Index()
     {
-        ViewBag.v1 = "Service List";
-        ViewBag.v2 = "Service";
-        ViewBag.v3 = "Service List";
         var values = serviceManager.GetList();
         return View(values);
     }
@@ -21,9 +18,6 @@ public class ServiceController : Controller
     [HttpGet]
     public IActionResult AddService()
     {
-        ViewBag.v1 = "Add New Service";
-        ViewBag.v2 = "Service";
-        ViewBag.v3 = "Add New Service";
         return View();
     }
     
@@ -44,9 +38,6 @@ public class ServiceController : Controller
     [HttpGet]
     public IActionResult UpdateService(int id)
     {
-        ViewBag.v1 = "Update Service";
-        ViewBag.v2 = "Service";
-        ViewBag.v3 = "Update Service";
         var serviceValue = serviceManager.GetById(id);
         return View(serviceValue);
     }

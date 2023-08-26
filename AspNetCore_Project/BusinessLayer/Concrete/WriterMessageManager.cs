@@ -15,7 +15,7 @@ public class WriterMessageManager : IWriterMessageService
 
     public void Add(WriterMessage entity)
     {
-        throw new NotImplementedException();
+        _writerMessageDal.Insert(entity);
     }
 
     public void Delete(WriterMessage entity)

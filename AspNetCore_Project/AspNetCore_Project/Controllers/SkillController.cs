@@ -10,9 +10,6 @@ public class SkillController : Controller
     SkillManager skillManager = new SkillManager(new EfSkillDal());
     public IActionResult Index()
     {
-        ViewBag.v1 = "Skill List";
-        ViewBag.v2 = "Skills";
-        ViewBag.v3 = "Skill List";
         var values = skillManager.GetList();
          return View(values);
      }
@@ -20,9 +17,6 @@ public class SkillController : Controller
     [HttpGet]
     public IActionResult AddSkill()
     {
-        ViewBag.v1 = "Add New Skill";
-        ViewBag.v2 = "Skills";
-        ViewBag.v3 = "Add New Skill";
         return View();
     }
     
@@ -43,9 +37,6 @@ public class SkillController : Controller
     [HttpGet]
     public IActionResult UpdateSkill(int id)
     {
-        ViewBag.v1 = "Update Skill";
-        ViewBag.v2 = "Skills";
-        ViewBag.v3 = "Update Skill";
         var skillValue = skillManager.GetById(id);
         return View(skillValue);
     }

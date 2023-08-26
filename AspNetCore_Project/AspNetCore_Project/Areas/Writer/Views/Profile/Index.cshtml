@@ -20,11 +20,11 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword4">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password">
+                    <input type="password" asp-for="Password" value="@Model.Password" class="form-control" id="exampleInputPassword4" placeholder="Password">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword5">Confirm Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword5" placeholder="Confirm Password">
+                    <input type="password" asp-for="ConfirmPassword" value="@Model.ConfirmPassword" class="form-control" id="exampleInputPassword5" placeholder="Confirm Password">
                 </div>
                 <div class="form-group">
                     <label>Image upload</label>

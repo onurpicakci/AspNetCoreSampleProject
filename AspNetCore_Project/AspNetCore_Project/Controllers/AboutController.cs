@@ -12,9 +12,6 @@ public class AboutController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        ViewBag.v1 = "Update";
-        ViewBag.v2 = "Highlights";
-        ViewBag.v3 = "Highlight Page";
         var values = aboutManager.GetById(1);
         return View(values);
     }

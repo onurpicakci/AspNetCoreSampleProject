@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace AspNetCore_Project.Areas.Writer.Controllers;
 
 [Area("Writer")]
+[Route("Writer/[controller]/[action]")]
+
 public class LoginController : Controller
 {
     private readonly SignInManager<WriterUser> _signInManager;
@@ -30,7 +32,7 @@ public class LoginController : Controller
             var result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, true, true);
             if (result.Succeeded)
             {
-                return Redirect("/Writer/Home/Index");
+                return RedirectToAction("Index", "Profile");
             }
             else
             {
@@ -41,5 +43,9 @@ public class LoginController : Controller
         return View();
     }
     
-    
+    public async Task<IActionResult> Logout()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Index", "Login");
+    }
 }

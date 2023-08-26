@@ -13,7 +13,7 @@ public class WriterMessage
     
     public string Receiver { get; set; }
 
-    public string ReceiverName { get; set; }
+    public string? ReceiverName { get; set; }
     
     public string Subject { get; set; }
     

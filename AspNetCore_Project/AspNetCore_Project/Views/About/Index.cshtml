@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "title";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
 
 <div class="card-header border-0">
@@ -11,21 +11,26 @@
 
 @using(Html.BeginForm("Index","About",FormMethod.Post))
 {
-    @Html.HiddenFor(x => x.AboutId)
-    <br/><br/><br/>
-    <label>Title</label>
-    @Html.TextBoxFor(x=>x.Title, new {@class="form-control mt-2"})
-    <label class="mt-3">Age</label>
-    @Html.TextBoxFor(x=>x.Age, new {@class="form-control mt-2"})
-    <label class="mt-3">Mail</label>
-    @Html.TextBoxFor(x=>x.Mail, new {@class="form-control mt-2"})
-    <label class="mt-3">Phone</label>
-    @Html.TextBoxFor(x=>x.Phone, new {@class="form-control mt-2"})
-    <label class="mt-3">Address</label>
-    @Html.TextBoxFor(x=>x.Address, new {@class="form-control mt-2"})
-    <label class="mt-3">Image Url</label>
-    @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form-control mt-2"})
-    <label class="mt-3">Mail</label>
-    @Html.TextAreaFor(x=>x.Description, 10,2, new {@class="form-control mt-2"})
-    <button class="btn btn-success mt-3">Update</button>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                @Html.HiddenFor(x => x.AboutId)
+                   <label>Title</label>
+                   @Html.TextBoxFor(x=>x.Title, new {@class="form-control mt-2"})
+                   <label class="mt-3">Age</label>
+                   @Html.TextBoxFor(x=>x.Age, new {@class="form-control mt-2"})
+                   <label class="mt-3">Mail</label>
+                   @Html.TextBoxFor(x=>x.Mail, new {@class="form-control mt-2"})
+                   <label class="mt-3">Phone</label>
+                   @Html.TextBoxFor(x=>x.Phone, new {@class="form-control mt-2"})
+                   <label class="mt-3">Address</label>
+                   @Html.TextBoxFor(x=>x.Address, new {@class="form-control mt-2"})
+                   <label class="mt-3">Image Url</label>
+                   @Html.TextBoxFor(x=>x.ImageUrl, new {@class="form-control mt-2"})
+                   <label class="mt-3">Mail</label>
+                   @Html.TextAreaFor(x=>x.Description, 10,2, new {@class="form-control mt-2"})
+                   <button class="btn btn-success mt-3">Update</button>
+            </div>
+        </div>
+    </div>
 }

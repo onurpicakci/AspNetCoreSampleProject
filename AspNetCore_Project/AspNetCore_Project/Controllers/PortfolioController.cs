@@ -13,9 +13,6 @@ public class PortfolioController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.v1 = "Portfolio List";
-        ViewBag.v2 = "Portfolios";
-        ViewBag.v3 = "Portfolio List";
         var values = portfolioManager.GetList();
         return View(values);
     }
@@ -23,9 +20,6 @@ public class PortfolioController : Controller
     [HttpGet]
     public IActionResult AddPortfolio()
     {
-        ViewBag.v1 = "Add New Portfolio";
-        ViewBag.v2 = "Portfolios";
-        ViewBag.v3 = "Add New Portfolio";
         return View();
     }
 
@@ -61,9 +55,6 @@ public class PortfolioController : Controller
     [HttpGet]
     public IActionResult UpdatePortfolio(int id)
     {
-        ViewBag.v1 = "Update Portfolio";
-        ViewBag.v2 = "Portfolios";
-        ViewBag.v3 = "Update Portfolio";
         var portfolioValue = portfolioManager.GetById(id);
         return View(portfolioValue);
     }

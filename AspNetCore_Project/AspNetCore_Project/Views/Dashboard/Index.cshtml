@@ -54,7 +54,7 @@
 @await Component.InvokeAsync("ProjectList")
 
 <div class="row">
-    @await Component.InvokeAsync("MessageList")
+    @* @await Component.InvokeAsync("MessageList") *@
     @await Component.InvokeAsync("SlideList")
     @await Component.InvokeAsync("ToDoListPanel")
 </div>
@@ -62,7 +62,6 @@
     @await Component.InvokeAsync("VisitorMap")
 </div>
 
-<script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script> 
 <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/chart.js/Chart.min.js"></script>
 <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/progressbar.js/progressbar.min.js"></script>
 <script src="~/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>

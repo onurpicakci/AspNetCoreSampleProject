@@ -11,9 +11,6 @@ public class ExperienceController : Controller
     
     public IActionResult Index()
     {
-        ViewBag.v1 = "Experience List";
-        ViewBag.v2 = "Experience";
-        ViewBag.v3 = "Experience List";
         var values = experienceManager.GetList();
         return View(values);
     }
@@ -21,9 +18,6 @@ public class ExperienceController : Controller
     [HttpGet]
     public IActionResult AddExperience()
     {
-        ViewBag.v1 = "Add New Experience";
-        ViewBag.v2 = "Experience";
-        ViewBag.v3 = "Add New Experience";
         return View();
     }
     
@@ -44,9 +38,6 @@ public class ExperienceController : Controller
     [HttpGet]
     public IActionResult UpdateExperience(int id)
     {
-        ViewBag.v1 = "Update Experience";
-        ViewBag.v2 = "Experience";
-        ViewBag.v3 = "Update Experience";
         var experienceValue = experienceManager.GetById(id);
         return View(experienceValue);
     }

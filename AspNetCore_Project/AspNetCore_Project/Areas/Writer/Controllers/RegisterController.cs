@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace AspNetCore_Project.Areas.Writer.Controllers;
 
 [Area("Writer")]
+[Route("Writer/[controller]/[action]")]
+
 public class RegisterController : Controller
 {
     private readonly UserManager<WriterUser> _userManager;
@@ -40,7 +42,7 @@ public class RegisterController : Controller
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Default");
+                    return RedirectToAction("Index", "Login");
                 }
                 else
                 {
