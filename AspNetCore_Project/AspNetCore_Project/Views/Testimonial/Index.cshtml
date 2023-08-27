@@ -1,0 +1,47 @@
+@using EntityLayer.Concrete
+@model List<Testimonials>
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Testimonial List</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th> Image </th>
+                            <th> Name </th>
+                            <th> Company </th>
+                            <th> Update </th>
+                            <th> Delete </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="@item.ImageUrl" alt="image"/>
+                                </td>
+                                <td> @item.ClientName </td>
+                                <td> @item.Company </td>
+                                <td>
+                                    <a href="/Testimonial/UpdateTestimonial/@item.TestimonialsId" class="btn btn-inverse-secondary">Update</a>
+                                </td>
+                                <td>
+                                    <a href="/Testimonial/DeleteTestimonial/@item.TestimonialsId" class="btn btn-outline-primary">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
