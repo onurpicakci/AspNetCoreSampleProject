@@ -1,0 +1,42 @@
+@model EntityLayer.Concrete.WriterMessage
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description">Admin Message Detail</p>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>ID</label>
+                        @Html.TextBoxFor(x => x.Id, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Sender</label>
+                        @Html.TextBoxFor(x => x.SenderName, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Receiver</label>
+                        @Html.TextBoxFor(x => x.ReceiverName, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        @Html.TextBoxFor(x => x.MessageDate, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        @Html.TextAreaFor(x => x.MessageContent, 6, 2, new { @class = "form-control" })
+                    </div>
+                    <a asp-action="InboxMessageList" class="btn btn-primary mr-2">Inbox Message Page</a>
+                    <a asp-action="SenderMessageList" class="btn btn-primary mr-2">Sender Message Page</a>
+                </form>
+            </div>
+        </div>
+    </div>

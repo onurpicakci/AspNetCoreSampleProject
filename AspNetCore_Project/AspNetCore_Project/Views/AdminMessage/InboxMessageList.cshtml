@@ -1,0 +1,49 @@
+@using EntityLayer.Concrete 
+@model List<WriterMessage>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <a asp-for="AdminMessageAdd" class="btn btn-outline-primary float-right">New Message</a>
+            <h4 class="card-title">Writer Admin Inbox</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Sender</th>
+                        <th>Mail</th>
+                        <th>Subject</th>
+                        <th>Date</th>
+                        <th>Delete</th>
+                        <th>See Message</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Sender</td>
+                            <td>@item.SenderName</td>
+                            <td>@item.Subject</td>
+                            <td>@item.MessageDate</td>
+                            <td>
+                                <a href="/AdminMessage/AdminMessageDelete/@item.Id" class="btn btn-outline-danger">Delete</a>
+                            </td>
+                            <td>
+                                <a href="/AdminMessage/AdminMessageDetails/@item.Id" class="btn btn-outline-success">See Message</a>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

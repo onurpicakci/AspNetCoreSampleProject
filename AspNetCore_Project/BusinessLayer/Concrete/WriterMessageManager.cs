@@ -20,7 +20,7 @@ public class WriterMessageManager : IWriterMessageService
 
     public void Delete(WriterMessage entity)
     {
-        throw new NotImplementedException();
+        _writerMessageDal.Delete(entity);
     }
 
     public void Update(WriterMessage entity)
