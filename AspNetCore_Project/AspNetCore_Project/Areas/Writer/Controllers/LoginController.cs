@@ -8,6 +8,7 @@ namespace AspNetCore_Project.Areas.Writer.Controllers;
 
 [Area("Writer")]
 [Route("Writer/[controller]/[action]")]
+[AllowAnonymous]
 
 public class LoginController : Controller
 {
