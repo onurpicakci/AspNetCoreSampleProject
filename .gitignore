@@ -423,3 +423,6 @@ AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.CoreCompi
 AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.csproj.AssemblyReference.cache
 AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.pdb
 AspNetCore_Project/BusinessLayer/obj/Debug/net7.0/BusinessLayer.dll
+AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/.DS_Store
+AspNetCore_Project/AspNetCore_Project/wwwroot/.DS_Store
+AspNetCore_Project/AspNetCore_Project/wwwroot/Template/images/.DS_Store
