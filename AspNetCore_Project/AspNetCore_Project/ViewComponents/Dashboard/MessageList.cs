@@ -6,8 +6,10 @@ namespace AspNetCore_Project.ViewComponents.Dashboard;
 
 public class MessageList : ViewComponent
 {
+   MessageManager _messageManager = new MessageManager(new EfMessageDal());
    public IViewComponentResult Invoke()
    {
-      return View();
+      var values = _messageManager.GetList();
+      return View(values);
    } 
 }

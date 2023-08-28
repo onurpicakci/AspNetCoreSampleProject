@@ -1,0 +1,29 @@
+@using EntityLayer.Concrete
+@model List<SocialMedia>
+
+<footer class="pt-4 pb-4 text-center bg-light">
+    <div class="container">
+        <div class="my-3">
+            <div class="h4">Onur Pıçakcı</div>
+            <p>Software Developer & .Net Developer</p>
+            <div class="social-nav">
+                <nav role="navigation">
+                    <ul class="nav justify-content-center">
+                        @foreach (var item in Model)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@item.Url" title="@item.Name">
+                                    <i class="@item.Icon"></i><span class="menu-title sr-only">@item.Name"</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="text-small text-secondary">
+            <div class="mb-1">&copy; Onur Pıçakcı. All rights reserved.</div>
+        </div>
+    </div>
+</footer>
