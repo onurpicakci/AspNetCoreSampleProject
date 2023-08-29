@@ -1,0 +1,99 @@
+@using EntityLayer.Concrete
+@model List<WriterUser>
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-md-12">
+    <div class="p-2">
+        <button type="button" id="btnGetList" class="btn btn-outline-dribbble float-right mr-3">Fetch Data</button>
+        <button type="button" id="btnGetId" class="btn btn-outline-warning float-right mr-3">Fetch to Data Id</button>
+        <button type="button" id="btnDelete" class="btn btn-outline-danger float-right mr-3">Delete</button>
+        <button type="button" id="btnUpdate" class="btn btn-outline-success float-right mr-3">Update</button>
+    </div>
+</div>
+
+<h4 class="text-left">Writer List</h4>
+<div class="p-2" id="listUser">
+    
+</div>
+
+<div class="p-2" id="listGetById">
+    
+</div>
+
+<div class="col-md-12 mt-2">
+    <h4>Bring it according to Id</h4>
+    <input type="text" class="form-control" id="inpId" placeholder="ID"/>
+</div>
+
+<div class="col-md-12 mt-2">
+    <h4>Delete by ID</h4>
+    <input type="text" class="form-control" id="inpDeleteId" placeholder="ID"/>
+</div>
+
+@section Scripts{
+    <script>
+        $("#btnGetList").click(function(){
+            $.ajax({
+            contentType: "application/json",
+            dataType: "json",
+            type: "Get",
+            url: "/WriterUser/ListUser/",
+            
+            success: function(funk){
+                let users = jQuery.parseJSON(funk);
+                
+                let htmlst = "<table class=table table-bordered> <tr> <th>Id</th> <th> Name </th> <th> Surname </th> </tr>";
+                $.each(users, (index, value) => {
+                    htmlst += `<tr> <td>${value.Id} </td> <td>${value.Name}</td> <td>${value.Surname}</td> </tr> `
+                });
+                htmlst += "</table>"
+                $("#listUser").html(htmlst);
+            }
+        });
+    });
+        
+        $("#btnGetId").click(x => {
+            let id = $("#inpId").val();
+            
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "Get",
+                url: "/WriterUser/GetByWriterId/",
+                data: {Id: id},
+                
+                success: function (funk2){
+                    let result = jQuery.parseJSON(funk2)
+                    let htmlString = `<table class="table table-hover"> <tr> <th> Id </th> <td>${result.Id} </td> </tr>
+<tr> <th> Name </th> <td>${result.Name} </td> </tr>
+<tr> <th> Surname </th> <td> ${result.Surname} </td> </tr> 
+<tr> <th> UserName </th> <td> ${result.UserName} </td> </tr>
+<tr> <th> Mail </th> <td>${result.Email} </td> </tr> </table>`;
+                    
+                    $("#listGetById").html(htmlString);
+                  
+                }
+            });
+        });
+        
+        $("#btnDelete").click(x => {
+            let id = $("#inpDeleteId").val();
+            
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "POST",
+                url: "/WriterUser/DeleteWriter/" + id,
+                success: function (result){
+                    loadData();                    
+                }
+            });
+        });
+    </script>
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
