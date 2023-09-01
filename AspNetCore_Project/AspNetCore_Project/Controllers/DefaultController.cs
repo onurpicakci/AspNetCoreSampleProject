@@ -2,13 +2,14 @@ using System;
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCore_Project.Controllers;
 
+[AllowAnonymous]
 public class DefaultController : Controller
 {
-    // GET
     public IActionResult Index()
     {
         return View();
